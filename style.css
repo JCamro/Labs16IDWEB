@@ -1,3 +1,42 @@
 #ejercicio5 {
     background-color: red;
 }
+
+.boton img {
+    width: 100px;
+}
+
+#imagen-grande {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+#imagen-grande img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+#cuadrado {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: red;
+    position: relative;
+}
+
+.mover {
+    animation: moverDerecha 1.5s forwards;
+}
+
+@keyframes moverDerecha {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 300px;
+    }
+}
